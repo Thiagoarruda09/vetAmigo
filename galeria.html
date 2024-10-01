@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pet amigo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        @font-face {
+            font-family: "siri";
+            src: url(fontes/Assistant\,Passion_One\,Sriracha/);
+        }
+
+        .cor1 {
+            background-color: #8DC989;
+        }
+
+        .cor2 {
+            background-color: #004F41;
+        }
+
+        .fonteCor1 {
+            color: #004F41;
+
+        }
+
+        .cor3 {
+            background-color: #4FAD64;
+        }
+        .nav-link:hover{
+            background-color: #004F41;
+            color: #4FAD64;
+            border-radius: 5px;
+        }
+
+        body {
+            font-family: 'siri';
+        }
+    </style>
+</head>
+
+<body class="">
+    <header class="cor1">
+        <div class="container">
+            <div class="row d-flex flex-row justify-content-around">
+                <div class="col">
+                    <img src="imagens/cachorro.png" alt="" width="80px" class="text-justify">
+
+                </div>
+                <div class="col align-self-center">
+                    <nav class="navbar navbar-expand-lg navbar-light ">
+                        <div class="container-fluid">
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse fs-4" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Produtos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Galeria</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contato.html">contatos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col d-flex flex-row justify-content-center align-self-center">
+                    <div class="col-3"><img src="imagens/icons8-buying-50.png" alt="" width="40px"></div>
+                    <div class="col-3"><img src="imagens/icons8-user-50.png" alt="" width="40px"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="">
+        <div class="container-fluid cor2">
+            <div class="row">
+                <div class="col  align-self-center text-white">
+                    <h5>Bem-vindo ao PetShop</h5>
+                    <h1>Melhor Amigo
+                        Confira momentos especiais dos
+                        nossos clientes de quatro patas!</h1>
+                    <h5>economize 20% no seu primeiro pedido</h5>
+                    <button class="btn btn-success">Veja nossos produtos</button>
+                </div>
+                <div class="col">
+                    <img src="imagens/poteracao.png" alt="" class="img-fluid d-none d-sm-block" width="700px">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mb-5 mt-5 pb-5 pt-5">
+            <div class="row">
+                <div class="col fs-5">
+                    <h1 class="text-center border-bottom border-success border-3">Nossa <span class="fonteCor1"><strong>Galeria de Fotos</strong></span></h1>
+                    <p>Nossa galeria de fotos é o reflexo do nosso amor e cuidado pelos animais. Lá, você poderá ver
+                        alguns dos adoráveis clientes que já passaram pelo nosso petshop. É um verdadeiro prazer atender
+                        a cada um deles e contribuir para o seu bem-estar e felicidade.</p>
+                    <div id="carouselExampleCaptions" class="carousel slide col-6 offset-3  " data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagens/pet-1.webp" class="d-block w-100 rounded border border-success"
+                                    alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-success bg-light rounded">o gato mario e seu amigo josé</h5>
+                                    <p class="text-success bg-light rounded">grandes amigos que se conheceram na nossa
+                                        clinica</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/pet-2.webp" class="d-block w-100 rounded border border-success"
+                                    alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-success bg-light rounded">os tres mosqueteiros joao, josé maria e
+                                        zezim</h5>
+                                    <p class="text-success bg-light rounded">grandes amigos do nosso veterinario</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/pet-3.webp" class="d-block w-100 rounded border border-success"
+                                    alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-success bg-light rounded">eduardo e thomas, o cachorro</h5>
+                                    <p class="text-success bg-light rounded">duplinha que faz a bagunça no consultorio
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/pet-4.webp" class="d-block w-100 rounded border border-success"
+                                    alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-success bg-light rounded">ricardo e ricardin</h5>
+                                    <p class="text-success bg-light rounded">grandes companheiros</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/pet-5.webp" class="d-block w-100 rounded border border-success"
+                                    alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-success bg-light rounded">gato e cachorro</h5>
+                                    <p class="text-success bg-light rounded">impressionados com a chuva de preço baixo
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center align-self-center"><a href="index.html"
+                class="btn btn-success text-center align-self-center">Voltar ao menu principal</a></div>
+                <div class="container-fluid mt-5 cor1 pt-5 pb-5">
+
+                    <div class="row d-flex flex-column flex-sm-row justify-content-center justify-sm-around">
+                        <div class="col-1 d-none d-md-block">
+                            <img src="imagens/pata.png" alt="" width="70px">
+                        </div>
+                        <div class="col-5 m-2 cor3 rounded">
+                            <h3>contato</h3>
+                            <p>petshop@melhoramigo.com</p>
+                            <p>(31) 9 9999-9999</p>
+                        </div>
+                        <div class="col-5 m-2 cor3 rounded">
+                            <h3>Horários</h3>
+                            <p>aberto todos os dias</p>
+                            <p>9:00 às 17:00</p>
+                        </div>
+                    </div>
+                </div>
+    </main>
+    <footer class="m-0 p-0 cor2 text-white text-center">
+        <p>© PetShop Melhor Amigo 2024 - Desenvolvido por Thiago Arruda</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
